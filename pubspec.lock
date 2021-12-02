@@ -198,12 +198,10 @@ packages:
   flutter_statusbarcolor_ns:
     dependency: "direct main"
     description:
-      path: "."
-      ref: "feature/android-embedding-v2"
-      resolved-ref: "2de6c1934766f5172dfb75cb1680894d5178077b"
-      url: "https://github.com/duncwillz/flutter_statusbarcolor.git"
-    source: git
-    version: "0.3.0-nullsafety"
+      name: flutter_statusbarcolor_ns
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.4.0"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -388,7 +386,7 @@ packages:
       name: provider
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "5.0.0"
+    version: "6.0.1"
   pub_semver:
     dependency: transitive
     description:
