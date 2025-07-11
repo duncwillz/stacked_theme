@@ -9,9 +9,9 @@ import 'package:stacked_themes/src/services/statusbar_service.dart';
 import 'test_setup.mocks.dart';
 
 @GenerateMocks([], customMocks: [
-  MockSpec<SharedPreferencesService>(returnNullOnMissingStub: true),
-  MockSpec<StatusBarService>(returnNullOnMissingStub: true),
-  MockSpec<PlatformService>(returnNullOnMissingStub: true)
+  MockSpec<SharedPreferencesService>(),
+  MockSpec<StatusBarService>(),
+  MockSpec<PlatformService>()
 ])
 SharedPreferencesService getAndRegisterSharedPreferencesServiceMock(
     {int? themeIndex, ThemeMode? userThemeMode}) {
